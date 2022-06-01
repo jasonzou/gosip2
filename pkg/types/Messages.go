@@ -1,0 +1,26 @@
+package enums
+
+/**
+ * Enumeration of all SIP messages. Can be used to indicate which messages
+ * are supported by the ACS.
+ *
+ */
+//public enum Messages {
+const (
+	MSG_PATRON_STATUS_REQUEST = iota
+	MSG_CHECKOUT
+	MSG_CHECKIN
+	MSG_BLOCK_PATRON
+	MSG_SC_ACS_STATUS
+	MSG_REQUEST_SC_ACS_RESEND
+	MSG_LOGIN
+	MSG_PATRON_INFORMATION
+	MSG_END_PATRON_SESSION
+	MSG_FEE_PAID
+	MSG_ITEM_INFORMATION
+	MSG_ITEM_STATUS_UPDATE
+	MSG_PATRON_ENABLE
+	MSG_HOLD
+	MSG_RENEW
+	MSG_RENEW_ALL
+)
