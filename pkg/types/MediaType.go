@@ -1,0 +1,20 @@
+package enums
+
+/**
+ * Supported media types.
+ *
+ */
+//public enum MediaType {
+const (
+	MEDIA_OTHER = iota
+	MEDIA_BOOK
+	MEDIA_MAGAZINE
+	MEDIA_BOUND_JOURNAL
+	MEDIA_AUDIO_TAPE
+	MEDIA_VIDEO_TAPE
+	MEDIA_CD_CDROM
+	MEDIA_DISKETTE
+	MEDIA_BOOK_WITH_DISKETTE
+	MEDIA_BOOK_WITH_CD
+	MEDIA_BOOK_WITH_AUDIO_TAPE
+)

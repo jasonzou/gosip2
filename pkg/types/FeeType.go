@@ -1,0 +1,19 @@
+package enums
+
+/**
+ * Known fee types.
+ *
+ *
+ */
+const (
+	//    public enum FeeType {
+	FEE_OTHER_UNKNOWN = iota
+	FEE_ADMINISTRATIVE
+	FEE_DAMAGE
+	FEE_OVERDUE
+	FEE_PROCESSING
+	FEE_RENTAL
+	FEE_REPLACEMENT
+	FEE_COMPUTER_ACCESS_CHARGE
+	FEE_HOLD_CHARGE
+)
